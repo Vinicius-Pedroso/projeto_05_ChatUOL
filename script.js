@@ -7,10 +7,14 @@ const enviarnome = axios.post('https://mock-api.driven.com.br/api/v6/uol/partici
 enviarnome.then(console.log("deu bom"));
 enviarnome.catch(console.log("deu ruim"));
 
-const recebermensagems = axios.get('https://mock-api.driven.com.br/api/v6/uol/messages');
+imprimir();
 
-recebermensagems.then()
-recebermensagems.catch(console.log("deu bom não"));
+function imprimir (){
+    const recebermensagems = axios.get('https://mock-api.driven.com.br/api/v6/uol/messages');
+    recebermensagems.then(imprimirchat);
+    recebermensagems.catch(console.log("deu bom não"));
+}
+
 
 function imprimirchat (array){
     console.log(array)
