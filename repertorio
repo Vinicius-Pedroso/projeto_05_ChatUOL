@@ -1,0 +1,9 @@
+<div class="mensagemPublica">
+            <h2>hoje</h2><h1>Sou lindo</h1>
+        </div>
+        <div class="mensagemPrivada">
+            <h2>Ontem</h2><h1>Fui gato</h1>
+        </div>
+        <div class="mensagemStatus">
+            <h2>Amanhã</h2><h1>Serei maravilhoso</h1>
+        </div>

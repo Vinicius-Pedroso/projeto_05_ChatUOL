@@ -1,0 +1,101 @@
+body {
+    background-color: #E5E5E5;
+}
+
+.topo {
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    background-color: white;
+    position: fixed;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.chat {
+    width: 100%;
+    display: block;
+}
+
+.chat div {
+    margin-top: 5px;
+    min-height: 40px;
+    display:flex;
+    flex-wrap: wrap;
+    padding-left: 10px;
+    align-items: center;
+}
+
+.correcao1 {
+    height: 108px;
+    width: 100%;
+    background: #E5E5E5;
+}
+
+.correcao2 {
+    height: 80px;
+    width: 100%;
+    background: white;
+}
+
+h1 {
+    padding-left: 5px;
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+h2 {
+    color: #AAAAAA;
+    font-size: 14px;
+    font-family: 'roboto';
+    font-weight: 400;
+}
+
+h3 {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 18;
+
+}
+
+.mensagemStatus{
+    background-color: #DCDCDC;
+}
+
+.mensagemPrivada{
+    background-color: #FFDEDE;
+}
+
+.mensagemPublica{
+    background-color: #FFFFFF;
+}
+
+.spacebottom {
+    height: 80px;
+    width: auto;
+    background-color: white;
+}
+
+.box {
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    height: 80px;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+.box div {
+    margin-left: 10px;
+}
+
+.box div > ion-icon {
+    padding-right: 20px;
+    height: 26px;
+    width: 26px;
+}
